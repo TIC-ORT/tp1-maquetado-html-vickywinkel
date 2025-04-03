@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: lime;
+    height: 25vh; 
+    width: 100%;
+    margin: 10px;
+}
