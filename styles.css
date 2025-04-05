@@ -1,16 +1,18 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .top{
-    height: 100vh;
+    height: 10vh;
     width: 100%;
     display: flex;
-    
+
     .topLeft{
         background-color: #C7F5FA;
         height: 10vh; 
@@ -46,11 +48,34 @@ body{
     }
 }
 
-/*
+
 .mid{
     background-color: rgb(6, 58, 6);
-    height: 25vh; 
+    height: 60vh; 
     width: 100%;
-    margin: 10px;
+    display: flex;
+    .midLeft{
+        height: 60vh;
+        width: 20%;
+        background-color: aqua;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+        .cuadradiño{
+            height: 35vh;
+            aspect-ratio: 1/1;
+            background-color: rgb(191, 0, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15%;
+
+            .miniCuadradiño{
+                height: 20vh;
+                aspect-ratio: 1/1;
+                background-color: grey;
+            }
+        }
+    }
 }
-*/
