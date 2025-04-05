@@ -2,11 +2,35 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
 .top {
-    background-color: lime;
+    background-color: #6cc8cf ;
+    height: 10vh; 
+    width: 100%;
+    display: flex;
+   
+
+    .minibarra{
+        background-color: #C7F5FA;
+        height: 10vh; 
+        width: 20%;
+    }
+    .bottonBlanco{
+        background-color: #ffffff;
+            height: 5vh; 
+            width: 15%;
+        }
+}
+/*
+.mid{
+    background-color: rgb(6, 58, 6);
     height: 25vh; 
     width: 100%;
     margin: 10px;
 }
+*/
