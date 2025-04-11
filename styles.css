@@ -54,27 +54,59 @@ body{
     height: 60vh; 
     width: 100%;
     display: flex;
+
     .midLeft{
         height: 60vh;
         width: 20%;
         background-color: aqua;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
+        flex-direction: column;
+        /* justify-content: flex-end; */
+        align-items: center;
+        gap: 1em;
 
         .cuadradiño{
             height: 35vh;
             aspect-ratio: 1/1;
-            background-color: rgb(191, 0, 255);
+            background-color: #D8D8D8;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-top: 15%;
 
             .miniCuadradiño{
-                height: 20vh;
+                height: 18vh;
                 aspect-ratio: 1/1;
-                background-color: grey;
+                background-color: #B3B3B3;
+            }
+        }
+        .linea{
+            height: 1vh;
+            width: 25vh;
+            background-color: #B3B3B3;
+        }
+        .linea{
+            height: 1vh;
+            width: 25vh;
+            background-color: #B3B3B3;
+        }
+        .linea{
+            height: 1vh;
+            width: 25vh;
+            background-color: #B3B3B3;
+        }
+        .boton{
+            height: 4.5vh;
+            width: 18vh;
+            background-color: #56595F;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .linita{
+                height: 1vh;
+                width: 10vh;
+                background-color: #B3B3B3;
             }
         }
     }
