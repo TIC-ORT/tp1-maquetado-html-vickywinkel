@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
 
@@ -14,12 +14,12 @@ body{
     display: flex;
 
     .topLeft{
-        background-color: #C7F5FA;
+        background-color: #A5DDE4;
         height: 10vh; 
         width: 20%;
     }
     .topRight {
-        background-color: #6cc8cf ;
+        background-color: #78C3CC ;
         height: 10vh; 
         width: 80%;
         display: flex;
@@ -50,7 +50,7 @@ body{
 
 
 .mid{
-    background-color: rgb(6, 58, 6);
+    background-color: #ffffff;
     height: 60vh; 
     width: 100%;
     display: flex;
@@ -58,7 +58,7 @@ body{
     .midLeft{
         height: 60vh;
         width: 20%;
-        background-color: #ffffff;
+        
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -89,16 +89,7 @@ body{
                 width: 25vh;
                 background-color: #B3B3B3;
             }
-            .linea{
-                height: 1vh;
-                width: 25vh;
-                background-color: #B3B3B3;
-            }
-            .linea{
-                height: 1vh;
-                width: 25vh;
-                background-color: #B3B3B3;
-            }
+            
             .boton{
                 height: 4.5vh;
                 width: 18vh;
@@ -117,6 +108,76 @@ body{
     }
 
     .midRight{
+        height: 60vh;
+        width: 80% ;
         
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15vh;
+        
+
+        .trinaguloL{
+            border-top: 4vh solid transparent;
+            border-bottom: 4vh solid transparent;
+            border-right: 3.5vh solid  #B3B3B3;
+            border-left: none;
+        }
+        .texto{
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            gap: 1.5vh;
+
+            .title{
+                height: 3vh;
+                width: 40vh;
+                background-color: #56595F
+            }
+            .txts{
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+                gap: 2vh;
+                .txt{
+                    height: 1vh;
+                    width: 90vh;
+                    background-color: #B3B3B3;
+                }
+                .minitxt{
+                    height: 1vh;
+                    width: 40vh;
+                    background-color: #B3B3B3;
+                }
+            }
+        }
+        .trinaguloR{
+            border-top: 4vh solid transparent;
+            border-bottom: 4vh solid transparent;
+            border-left: 3.5vh solid  #B3B3B3;
+            border-right: none;
+            margin-right: 10vh;
+        }
+    }
+}
+
+.bottom{
+    height: 70vh;
+    width: 100%;
+    background-color: #F47E5F;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+
+    .cuadradiñoo{
+        height: 30vh;
+        aspect-ratio: 1/1;
+        background-color: antiquewhite;
+    }
+    .img{
+        height: 62vh;
+        aspect-ratio: 1/1;
+        background-color: antiquewhite;
     }
 }
