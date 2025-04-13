@@ -164,20 +164,35 @@ body{
 .bottom{
     height: 70vh;
     width: 100%;
-    background-color: #F47E5F;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
+  
+   
+    .conteiner{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 31vh);
+        gap: 5vh; 
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
 
-    .cuadradiñoo{
-        height: 30vh;
-        aspect-ratio: 1/1;
-        background-color: antiquewhite;
-    }
-    .img{
-        height: 62vh;
-        aspect-ratio: 1/1;
-        background-color: antiquewhite;
+        .c1{
+            background-color: #56595F;
+        }
+        .c2{
+            background-color: #78C3CC;
+        }
+        .c3{
+            grid-column: 3/5;
+            grid-row: 1/3;
+            background: #A4DBE1;
+            
+        }
+        .c4{
+            background-color: #FFD985;
+        }
+        .c5{
+            background-color:#D8D8D8;
+        }
     }
 }
